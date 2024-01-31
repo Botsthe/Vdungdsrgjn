@@ -32,12 +32,12 @@ def is_enabled(value, default):
 # Owner Information
 API_ID = int(environ.get("API_ID", "25705219"))
 API_HASH = environ.get("API_HASH", "6590905e28c61bca1ad5e83de9853cf8")
-ADMINS = int(environ.get("ADMINS", "5022283560"))
+ADMINS = int(environ.get("ADMINS", "5977931010"))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://CLONEBOT:CLONEBOT@cluster0.g2yiuvi.mongodb.net/?retryWrites=true&w=majority")
 CDB_NAME = environ.get("CDB_NAME", "cluster0")
-DB_URI = environ.get("DB_URI", "mongodb+srv://FILESTOREBOT:FILESTOREBOT@cluster0.enstfjz.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = environ.get("DB_URI", "mongodb+srv://ranjuvishwakarma50:aman@cluster0.wujkscn.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "cluster0")
 
 # Don't Remove Credit Tg - @VJ_Botz
@@ -45,8 +45,8 @@ DB_NAME = environ.get("DB_NAME", "cluster0")
 # Ask Doubt on telegram @KingVJ01
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "Filestore_Galaxy_bot") # your bot username without @
+BOT_TOKEN = environ.get("BOT_TOKEN", "6726031505:AAEM2q-VJOqql7_LYBX-uRtcQMtg5b0lA2U")
+BOT_USERNAME = environ.get("BOT_USERNAME", "Testing_00100_bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/7e3b2b02d5bd88fffd0ed.jpg https://te.legra.ph/file/ada4e7758a4164ee0b5b0.jpg https://te.legra.ph/file/6f2877bb1e183bcf3979e.jpg https://te.legra.ph/file/52423c13fe3ef49ae465d.jpg https://te.legra.ph/file/985d471fe1416399d5248.jpg https://te.legra.ph/file/eaf6e3e350308fc5d53d0.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
@@ -54,7 +54,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002100922885"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002062708890"))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002100654462')).split()]
 
 # Don't Remove Credit Tg - @VJ_Botz
