@@ -45,8 +45,8 @@ DB_NAME = environ.get("DB_NAME", "cluster0")
 # Ask Doubt on telegram @KingVJ01
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "6726031505:AAEM2q-VJOqql7_LYBX-uRtcQMtg5b0lA2U")
-BOT_USERNAME = environ.get("BOT_USERNAME", "Testing_00100_bot") # your bot username without @
+BOT_TOKEN = environ.get("BOT_TOKEN", "6883904115:AAFzjOFjf30iab7YEh5dMQ5Y1D0V-6bBQ74")
+BOT_USERNAME = environ.get("BOT_USERNAME", "Owner_o_Bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/7e3b2b02d5bd88fffd0ed.jpg https://te.legra.ph/file/ada4e7758a4164ee0b5b0.jpg https://te.legra.ph/file/6f2877bb1e183bcf3979e.jpg https://te.legra.ph/file/52423c13fe3ef49ae465d.jpg https://te.legra.ph/file/985d471fe1416399d5248.jpg https://te.legra.ph/file/eaf6e3e350308fc5d53d0.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
@@ -55,7 +55,7 @@ AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Second
 
 # Channel Information
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002062708890"))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002100654462')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002062708890')).split()]
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -79,7 +79,7 @@ class Var(object):
     name = str(getenv('name', 'galaxyfilestore'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002107444913'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002062708890'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
