@@ -60,8 +60,8 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('🎭Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/Galaxy_support123'),
-            InlineKeyboardButton('🍀Sᴜᴘᴘᴏʀᴛ Cʜᴀɴɴᴇʟ', url='https://t.me/Galaxy_Bots1') 
+            InlineKeyboardButton('🎭Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/+Cw4OVGHWZpowNDBl'),
+            InlineKeyboardButton('🍀Sᴜᴘᴘᴏʀᴛ Cʜᴀɴɴᴇʟ', url='https://t.me/+Cw4OVGHWZpowNDBl') 
         ],[
             InlineKeyboardButton('⚠️ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🔰ᴀʙᴏᴜᴛ', callback_data='about')      
@@ -357,8 +357,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('🎭Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/Galaxy_support123'),
-            InlineKeyboardButton('🍀Sᴜᴘᴘᴏʀᴛ Cʜᴀɴɴᴇʟ', url='https://t.me/Galaxy_Bots1') 
+            InlineKeyboardButton('🎭Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/+Cw4OVGHWZpowNDBl'),
+            InlineKeyboardButton('🍀Sᴜᴘᴘᴏʀᴛ Cʜᴀɴɴᴇʟ', url='https://t.me/+Cw4OVGHWZpowNDBl') 
         ],[
             InlineKeyboardButton('⚠️ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🔰ᴀʙᴏᴜᴛ', callback_data='about')      
